@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.xml": "xml"
+    },
+    "files.trimTrailingWhitespace": true
+}
