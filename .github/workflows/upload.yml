@@ -32,6 +32,7 @@ jobs:
       # Create a ZIP file containing all files in the root directory
       - name: Create ZIP file
         run: |
+          echo "Creating ZIP file..."
           make prep
           mkdir -p /tmp/shinspark
           rsync -a --exclude={'*.png','*.ico','*.ini','*.manifest','.gitignore','*.bat','*.syso','*.md','Makefile'} . /tmp/shinspark
