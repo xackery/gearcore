@@ -34,7 +34,7 @@ jobs:
         run: |
           make prep
           mkdir -p /tmp/shinspark
-          rsync -a --exclude={'*.png','*.ico','*.ini','*.manifest','.gitignore','*.bat','*.syso','*.md','Makefile', '*.git', '*.github', 'config'} . /tmp/shinspark
+          rsync -a --exclude={'*.png','*.ico','*.ini','*.manifest','.gitignore','*.bat','*.syso','*.md','Makefile'} . /tmp/shinspark
           cd /tmp
           zip -r shinspark.zip shinspark
           mv shinspark.zip $GITHUB_WORKSPACE/shinspark.zip
