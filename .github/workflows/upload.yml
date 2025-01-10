@@ -34,24 +34,24 @@ jobs:
         run: |
           echo "Creating ZIP file..."
           make prep
-          mkdir -p /tmp/shinspark
+          mkdir -p /tmp/gearcore
           rsync -a --exclude={'*.png','*.ico','*.ini','*.manifest','.gitignore','*.bat','*.syso','*.md','Makefile'} . /tmp/shinspark
           cd /tmp
-          zip -r shinspark.zip shinspark
-          mv shinspark.zip $GITHUB_WORKSPACE/shinspark.zip
+          zip -r gearcore.zip gearcore
+          mv gearcore.zip $GITHUB_WORKSPACE/gearcore.zip
 
       # Upload the ZIP file as an artifact
       - name: Upload ZIP file
         uses: actions/upload-artifact@v3
         with:
-          name: shinspark
-          path: shinspark.zip
+          name: gearcore
+          path: gearcore.zip
       - uses: "marvinpinto/action-automatic-releases@latest"
         if: github.ref == 'refs/heads/main'
         with:
           repo_token: "${{secrets.GITHUB_TOKEN}}"
           automatic_release_tag: "latest"
           prerelease: false
-          title: "ShinSpark UI"
+          title: "GearCore UI"
           files: |
-            shinspark.zip
+            gearcore.zip

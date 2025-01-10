@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-  <TextureInfo item="Spark_EQ_Button.tga">
+  <TextureInfo item="EQ_Button.tga">
     <Size>
       <CX>256</CX>
       <CY>64</CY>
     </Size>
   </TextureInfo>
-  <Ui2DAnimation item="SparkEQButtonNormal">
+  <Ui2DAnimation item="GearEQButtonNormal">
     <Cycle>true</Cycle>
     <Frames>
-      <Texture>Spark_EQ_Button.tga</Texture>
+      <Texture>EQ_Button.tga</Texture>
       <Location>
         <X>0</X>
         <Y>0</Y>
@@ -26,10 +26,10 @@
       <Duration>1000</Duration>
     </Frames>
   </Ui2DAnimation>
-  <Ui2DAnimation item="SparkEQButtonFlyby">
+  <Ui2DAnimation item="GearEQButtonFlyby">
     <Cycle>true</Cycle>
     <Frames>
-      <Texture>Spark_EQ_Button.tga</Texture>
+      <Texture>EQ_Button.tga</Texture>
       <Location>
         <X>38</X>
         <Y>0</Y>
@@ -45,10 +45,10 @@
       <Duration>1000</Duration>
     </Frames>
   </Ui2DAnimation>
-  <Ui2DAnimation item="SparkEQButtonPressed">
+  <Ui2DAnimation item="GearEQButtonPressed">
     <Cycle>true</Cycle>
     <Frames>
-      <Texture>Spark_EQ_Button.tga</Texture>
+      <Texture>EQ_Button.tga</Texture>
       <Location>
         <X>76</X>
         <Y>0</Y>
@@ -64,10 +64,10 @@
       <Duration>1000</Duration>
     </Frames>
   </Ui2DAnimation>
-  <Ui2DAnimation item="SparkEQButtonPressedFlby">
+  <Ui2DAnimation item="GearEQButtonPressedFlby">
     <Cycle>true</Cycle>
     <Frames>
-      <Texture>Spark_EQ_Button.tga</Texture>
+      <Texture>EQ_Button.tga</Texture>
       <Location>
         <X>114</X>
         <Y>0</Y>
@@ -83,28 +83,10 @@
       <Duration>1000</Duration>
     </Frames>
   </Ui2DAnimation>
-  <Label item="EQM_SparkUI_Yahoo_Label">
-    <ScreenID>EQM_SparkUI_Yahoo_Label</ScreenID>
+  <Label item="EQM_Gearcore_Google_Label">
+    <ScreenID>EQM_Gearcore_Google_Label</ScreenID>
     <Font>3</Font>
-    <Text>Yahoo IM: SparkInterface</Text>
-    <TextColor>
-      <R>0</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <Size>
-      <CX>204</CX>
-      <CY>15</CY>
-    </Size>
-    <Location>
-      <X>5</X>
-      <Y>93</Y>
-    </Location>
-  </Label>
-  <Label item="EQM_SparkUI_Google_Label">
-    <ScreenID>EQM_SparkUI_Google_Label</ScreenID>
-    <Font>3</Font>
-    <Text>Google Talk: Bonechip@Gmail.Com</Text>
+    <Text>Github: xackery</Text>
     <TextColor>
       <R>0</R>
       <G>255</G>
@@ -119,44 +101,8 @@
       <Y>78</Y>
     </Location>
   </Label>
-  <Label item="EQM_SparkUI_ICQ_Label">
-    <ScreenID>EQM_SparkUI_ICQ_Label</ScreenID>
-    <Font>3</Font>
-    <Text>ICQ IM: 1555222</Text>
-    <TextColor>
-      <R>0</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <Size>
-      <CX>206</CX>
-      <CY>15</CY>
-    </Size>
-    <Location>
-      <X>5</X>
-      <Y>63</Y>
-    </Location>
-  </Label>
-  <Label item="EQM_SparkUI_FB_Label">
-    <ScreenID>EQM_SparkUI_FB_Label</ScreenID>
-    <Font>3</Font>
-    <Text>WWW.Facebook.Com/SparkInterface</Text>
-    <TextColor>
-      <R>0</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <Size>
-      <CX>217</CX>
-      <CY>15</CY>
-    </Size>
-    <Location>
-      <X>5</X>
-      <Y>48</Y>
-    </Location>
-  </Label>
-  <Label item="EQM_SparkUI_vLabel">
-    <ScreenID>EQM_SparkUI_vLabel</ScreenID>
+  <Label item="EQM_Gearcore_vLabel">
+    <ScreenID>EQM_Gearcore_vLabel</ScreenID>
     <Font>3</Font>
     <Text>Version 14.4</Text>
     <TextColor>
@@ -174,10 +120,10 @@
       <Y>26</Y>
     </Location>
   </Label>
-  <Label item="EQM_SparkUI_Label">
-    <ScreenID>EQM_SparkUI_Label</ScreenID>
+  <Label item="EQM_Gearcore_Label">
+    <ScreenID>EQM_Gearcore_Label</ScreenID>
     <Font>6</Font>
-    <Text>SparkUI</Text>
+    <Text>Gearcore</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -597,11 +543,11 @@
       <B>255</B>
     </TextColor>
     <ButtonDrawTemplate>
-      <Normal>SparkEQButtonNormal</Normal>
-      <Pressed>SparkEQButtonPressed</Pressed>
-      <Flyby>SparkEQButtonFlyby</Flyby>
-      <Disabled>SparkEQButtonNormal</Disabled>
-      <PressedFlyby>SparkEQButtonPressedFlby</PressedFlyby>
+      <Normal>GearEQButtonNormal</Normal>
+      <Pressed>GearEQButtonPressed</Pressed>
+      <Flyby>GearEQButtonFlyby</Flyby>
+      <Disabled>GearEQButtonNormal</Disabled>
+      <PressedFlyby>GearEQButtonPressedFlby</PressedFlyby>
     </ButtonDrawTemplate>
   </Button>
   <Button item="EQM_SCButton">
@@ -642,38 +588,8 @@
     </TextColor>
     <Template>BDT_SCFSBtn</Template>
   </Button>
-  <Button item="EQW_Spark_Button">
-    <EQType>openwnd EQUI_SparkUI</EQType>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>0</X>
-      <Y>38</Y>
-    </Location>
-    <Size>
-      <CX>38</CX>
-      <CY>14</CY>
-    </Size>
-    <Style_VScroll>false</Style_VScroll>
-    <Style_HScroll>false</Style_HScroll>
-    <Style_Transparent>false</Style_Transparent>
-    <Style_Checkbox>true</Style_Checkbox>
-    <Text>Shin</Text>
-    <TextColor>
-      <R>150</R>
-      <G>150</G>
-      <B>255</B>
-    </TextColor>
-    <ButtonDrawTemplate>
-      <Normal>A_BigBtnNormal</Normal>
-      <Pressed>A_BigBtnPressed</Pressed>
-      <Flyby>A_BigBtnFlyby</Flyby>
-      <Disabled>A_BigBtnDisabled</Disabled>
-      <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
-    </ButtonDrawTemplate>
-    <Font>2</Font>
-    <TooltipReference>Opens the SparkUI Version popup window.</TooltipReference>
-  </Button>
-  <Screen item="EQUI_SparkUI">
+
+  <Screen item="EQUI_Gearcore">
     <RelativePosition>true</RelativePosition>
     <EQType>closenotclicked</EQType>
     <Location>
@@ -687,7 +603,7 @@
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
-    <Text>Spark Version Info Popup Window</Text>
+    <Text>Gear Version Info Popup Window</Text>
     <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
@@ -695,12 +611,9 @@
     <Style_Border>true</Style_Border>
     <Style_Sizable>false</Style_Sizable>
     <Font>2</Font>
-    <Pieces>EQM_SparkUI_Label</Pieces>
-    <Pieces>EQM_SparkUI_vLabel</Pieces>
-    <Pieces>EQM_SparkUI_FB_Label</Pieces>
-    <Pieces>EQM_SparkUI_ICQ_Label</Pieces>
-    <Pieces>EQM_SparkUI_Google_Label</Pieces>
-    <Pieces>EQM_SparkUI_Yahoo_Label</Pieces>
+    <Pieces>EQM_Gearcore_Label</Pieces>
+    <Pieces>EQM_Gearcore_vLabel</Pieces>
+    <Pieces>EQM_Gearcore_Google_Label</Pieces>
   </Screen>
   <Screen item="EQMainWnd">
     <ScreenID />
@@ -711,7 +624,7 @@
     </Location>
     <Size>
       <CX>42</CX>
-      <CY>56</CY>
+      <CY>42</CY>
     </Size>
     <Text />
     <Style_VScroll>false</Style_VScroll>
@@ -727,6 +640,5 @@
     <Pieces>EQM_EQButton</Pieces>
     <Pieces>EQM_SCButton</Pieces>
     <Pieces>EQM_SCFSButton</Pieces>
-    <Pieces>EQW_Spark_Button</Pieces>
   </Screen>
 </XML>
