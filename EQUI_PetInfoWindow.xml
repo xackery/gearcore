@@ -2512,8 +2512,9 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Text>Pet Info</Text>
-		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
+		<Font>0</Font>
+		<DrawTemplate>WDT_SmallTitleGear</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Qmarkbox>false</Style_Qmarkbox>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_ClientMovable>true</Style_ClientMovable>

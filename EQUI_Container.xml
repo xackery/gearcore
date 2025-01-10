@@ -188,7 +188,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Container</TooltipReference>
-    <DrawTemplate>WDT_Rounded</DrawTemplate>
+    <DrawTemplate>WDT_SmallTitleGear</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
@@ -204,6 +204,6 @@
     <Pieces>CombineDoneButton</Pieces>
     <Pieces>Container_StandardSize</Pieces>
     <Pieces>Container_CombineSize</Pieces>
-    <Font>2</Font>
+    <Font>0</Font>
   </Screen>
 </XML>
