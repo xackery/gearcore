@@ -257,6 +257,24 @@
 		<LeftAnchorOffset>-14</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
+	<Label item="Target_HPPercLabel">
+		<ScreenID>HPPercLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Font>3</Font>
+		<Text>%</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>38</TopAnchorOffset>
+		<BottomAnchorOffset>53</BottomAnchorOffset>
+		<LeftAnchorOffset>-1000</LeftAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</Label>
 	<Label item="HoTT_HPPercLabel">
 		<ScreenID>HoTT_HPPercLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2089,6 +2107,7 @@
 		<Escapable>false</Escapable>
 		<Pieces>Target_HP</Pieces>
 		<Pieces>Target_HPLabel</Pieces>
+		<Pieces>Target_HPPercLabel</Pieces>
 		<Pieces>A_TargetBoxStaticAnimTop</Pieces>
 		<Pieces>A_TargetBoxStaticAnimBottom</Pieces>
 		<Pieces>A_TargetBoxStaticAnimLeft</Pieces>

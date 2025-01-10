@@ -2621,7 +2621,7 @@
 			<CX>120</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>ALT. ADV.</Text>
+		<Text></Text>
 		<TextColor>
 			<R>255</R>
 			<G>255</G>
@@ -2860,30 +2860,6 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-	<Button item="IW_PlotItems">
-		<ScreenID>IW_PlotItems</ScreenID>
-		<Font>2</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>1</X>
-			<Y>395</Y>
-		</Location>
-		<Size>
-			<CX>65</CX>
-			<CY>20</CY>
-		</Size>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Plot Items</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<Template>BDT_Normal</Template>
-	</Button>
 	<Button item="IW_Skills">
 		<ScreenID>IW_Skills</ScreenID>
 		<Font>2</Font>
@@ -2990,7 +2966,7 @@
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
-
+		<Pieces>ClassAnim</Pieces>
 	</Screen>
 	<Button item="IW_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
@@ -3092,72 +3068,7 @@
 		<Pieces>InvSlot31</Pieces>
 		<Pieces>InvSlot32</Pieces>
 	</TileLayoutBox>
-	<Gauge item="IW_VitalityGauge">
-		<ScreenID>VitalityGauge</ScreenID>
-		<TextOffsetY>1</TextOffsetY>
-		<GaugeOffsetY>-2</GaugeOffsetY>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>1</X>
-			<Y>145</Y>
-		</Location>
-		<Size>
-			<CX>118</CX>
-			<CY>4</CY>
-		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Available Vitality</TooltipReference>
-		<FillTint>
-			<R>25</R>
-			<G>200</G>
-			<B>25</B>
-		</FillTint>
-		<EQType>147</EQType>
-		<GaugeDrawTemplate>
-			<Background>A_GaugeBackground</Background>
-			<Fill>A_GaugeFill</Fill>
-			<Lines>A_GaugeLines</Lines>
-			<LinesFill>A_GaugeLinesFill</LinesFill>
-			<EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
-			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
-		</GaugeDrawTemplate>
-	</Gauge>
-	<Gauge item="IW_AAVitalityGauge">
-		<ScreenID>AAVitalityGauge</ScreenID>
-		<GaugeOffsetY>-2</GaugeOffsetY>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>1</X>
-			<Y>171</Y>
-		</Location>
-		<Size>
-			<CX>118</CX>
-			<CY>4</CY>
-		</Size>
-		<GaugeOffsetY>0</GaugeOffsetY>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Available AA Vitality</TooltipReference>
-		<FillTint>
-			<R>25</R>
-			<G>200</G>
-			<B>25</B>
-		</FillTint>
-		<EQType>148</EQType>
-		<GaugeDrawTemplate>
-			<Background>A_GaugeBackground</Background>
-			<Fill>A_GaugeFill</Fill>
-			<Lines>A_GaugeLines</Lines>
-			<LinesFill>A_GaugeLinesFill</LinesFill>
-			<EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
-			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
-		</GaugeDrawTemplate>
-	</Gauge>
+
 	<Page item="IW_InvPage">
 		<ScreenID>InvPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -3240,6 +3151,8 @@
 		<Pieces>IW_SpellDMG</Pieces>
 		<Pieces>IW_SpellDMGNumber</Pieces>
 		<Pieces>IW_Heal</Pieces>
+		<Pieces>IW_VitalityGauge</Pieces>
+		<Pieces>IW_AAVitalityGauge</Pieces>
 		<Pieces>IW_HealNumber</Pieces>
 		<Pieces>IW_NextLevel</Pieces>
 		<Pieces>IW_ExpGauge</Pieces>
@@ -3253,8 +3166,10 @@
 		<Pieces>IW_STANumber</Pieces>
 		<Pieces>IW_StaminaDivider</Pieces>
 		<Pieces>IW_MaxSTA</Pieces>
+		<Pieces>IW_PlotItems</Pieces>
 		<Pieces>IW_STAPlus</Pieces>
 		<Pieces>IW_HeroicSTA</Pieces>
+		<Pieces>IW_AltAdv</Pieces>
 		<Pieces>IW_AGI</Pieces>
 		<Pieces>IW_AGINumber</Pieces>
 		<Pieces>IW_AgilityDivider</Pieces>
@@ -3278,6 +3193,7 @@
 		<Pieces>IW_IntelligenceDivider</Pieces>
 		<Pieces>IW_MaxINT</Pieces>
 		<Pieces>IW_INTPlus</Pieces>
+		<Pieces>IW_ConsumeKrono</Pieces>
 		<Pieces>IW_HeroicINT</Pieces>
 		<Pieces>IW_CHA</Pieces>
 		<Pieces>IW_CHANumber</Pieces>
@@ -8225,6 +8141,52 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
+	<Button item="IW_PlotItems">
+		<ScreenID>IW_PlotItems</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-1000</X>
+			<Y>395</Y>
+		</Location>
+		<Size>
+			<CX>65</CX>
+			<CY>20</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>Plot Items</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+	<Button item="IW_ConsumeKrono">
+		<ScreenID>IW_ConsumeKrono</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-1000</X>
+			<Y>360</Y>
+		</Location>
+		<Size>
+			<CX>90</CX>
+			<CY>20</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Consume Krono</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
 	<TabBox item="IW_Subwindows">
 		<ScreenID>IW_Subwindows</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -8243,6 +8205,72 @@
 		<TopAnchorOffset>0</TopAnchorOffset>
 		<BottomAnchorOffset>0</BottomAnchorOffset>
 	</TabBox>
+	<Gauge item="IW_VitalityGauge">
+		<ScreenID>VitalityGauge</ScreenID>
+		<TextOffsetY>1</TextOffsetY>
+		<GaugeOffsetY>-2</GaugeOffsetY>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>1</X>
+			<Y>-1145</Y>
+		</Location>
+		<Size>
+			<CX>118</CX>
+			<CY>4</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Available Vitality</TooltipReference>
+		<FillTint>
+			<R>25</R>
+			<G>200</G>
+			<B>25</B>
+		</FillTint>
+		<EQType>147</EQType>
+		<GaugeDrawTemplate>
+			<Background>A_GaugeBackground</Background>
+			<Fill>A_GaugeFill</Fill>
+			<Lines>A_GaugeLines</Lines>
+			<LinesFill>A_GaugeLinesFill</LinesFill>
+			<EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+	<Gauge item="IW_AAVitalityGauge">
+		<ScreenID>AAVitalityGauge</ScreenID>
+		<GaugeOffsetY>-2</GaugeOffsetY>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>1</X>
+			<Y>-1171</Y>
+		</Location>
+		<Size>
+			<CX>118</CX>
+			<CY>4</CY>
+		</Size>
+		<GaugeOffsetY>0</GaugeOffsetY>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Available AA Vitality</TooltipReference>
+		<FillTint>
+			<R>25</R>
+			<G>200</G>
+			<B>25</B>
+		</FillTint>
+		<EQType>148</EQType>
+		<GaugeDrawTemplate>
+			<Background>A_GaugeBackground</Background>
+			<Fill>A_GaugeFill</Fill>
+			<Lines>A_GaugeLines</Lines>
+			<LinesFill>A_GaugeLinesFill</LinesFill>
+			<EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
 	<Screen item="InventoryWindow">
 		<!--<ScreenID/>-->
 		<RelativePosition>false</RelativePosition>
