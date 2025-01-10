@@ -7654,12 +7654,12 @@
 	<Listbox item="IWEI_ItemList">
 		<ScreenID>EI_ItemList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
-		<AutoStretch>true</AutoStretch>
+		<AutoStretch>false</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorOffset>4</LeftAnchorOffset>
+		<LeftAnchorOffset>-1000</LeftAnchorOffset>
 		<TopAnchorOffset>4</TopAnchorOffset>
 		<RightAnchorOffset>4</RightAnchorOffset>
 		<BottomAnchorOffset>30</BottomAnchorOffset>
@@ -7691,15 +7691,95 @@
 			<Heading>Active</Heading>
 		</Columns>
 	</Listbox>
+	<Label item="IWEI_Progression0">
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>10</LeftAnchorOffset>
+		<TopAnchorOffset>10</TopAnchorOffset>
+		<BottomAnchorOffset>25</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Text>Classic->Kunark: Lord Nagafen, Lady Vox</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item="IWEI_Progression1">
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>10</LeftAnchorOffset>
+		<TopAnchorOffset>35</TopAnchorOffset>
+		<BottomAnchorOffset>25</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Text>Kunark->Velious: Gorenaire, Severilous, Talendor, Trakanon</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item="IWEI_Progression2">
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>10</LeftAnchorOffset>
+		<TopAnchorOffset>60</TopAnchorOffset>
+		<BottomAnchorOffset>25</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Text>Velious->Luclin: Wuoshi, Zlandicar, Klandicar, Kelorak`Dar, Dozekar</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item="IWEI_Progression3">
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>10</LeftAnchorOffset>
+		<TopAnchorOffset>85</TopAnchorOffset>
+		<BottomAnchorOffset>25</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Text>Luclin->PoP: THO, Grieg, Insanity Crawler, XTC, Emp Ssraeshza</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
 	<Button item="IWEI_ToggleButton">
 		<ScreenID>EI_ToggleButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
+		<AutoStretch>false</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
-		<LeftAnchorOffset>4</LeftAnchorOffset>
+		<LeftAnchorOffset>-1000</LeftAnchorOffset>
 		<TopAnchorOffset>26</TopAnchorOffset>
 		<RightAnchorOffset>124</RightAnchorOffset>
 		<BottomAnchorOffset>4</BottomAnchorOffset>
@@ -7717,12 +7797,12 @@
 	<Button item="IWEI_AllOnButton">
 		<ScreenID>EI_AllOnButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
+		<AutoStretch>false</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorOffset>251</LeftAnchorOffset>
+		<LeftAnchorOffset>-1000</LeftAnchorOffset>
 		<TopAnchorOffset>26</TopAnchorOffset>
 		<RightAnchorOffset>139</RightAnchorOffset>
 		<BottomAnchorOffset>4</BottomAnchorOffset>
@@ -7740,12 +7820,12 @@
 	<Button item="IWEI_AllOffButton">
 		<ScreenID>EI_AllOffButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
+		<AutoStretch>false</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorOffset>135</LeftAnchorOffset>
+		<LeftAnchorOffset>-1135</LeftAnchorOffset>
 		<TopAnchorOffset>26</TopAnchorOffset>
 		<RightAnchorOffset>27</RightAnchorOffset>
 		<BottomAnchorOffset>4</BottomAnchorOffset>
@@ -7767,7 +7847,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<DrawTemplate>WDT_Def</DrawTemplate>
-		<TabText>Evolution</TabText>
+		<TabText>Progression</TabText>
 		<TabTextColor>
 			<R>255</R>
 			<G>255</G>
@@ -7783,6 +7863,10 @@
 		<Pieces>IWEI_ToggleButton</Pieces>
 		<Pieces>IWEI_AllOnButton</Pieces>
 		<Pieces>IWEI_AllOffButton</Pieces>
+		<Pieces>IWEI_Progression0</Pieces>
+		<Pieces>IWEI_Progression1</Pieces>
+		<Pieces>IWEI_Progression2</Pieces>
+		<Pieces>IWEI_Progression3</Pieces>
 		<Location>
 			<X>0</X>
 			<Y>22</Y>
@@ -7792,12 +7876,33 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
+	<Editbox item="ACP_Notes">
+		<ScreenID>PlayerNotesInput</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_VScroll>true</Style_VScroll>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Style_Multiline>true</Style_Multiline>
+	</Editbox>
 	<Listbox item="ACP_ProgressionList">
 		<ScreenID>ProgressionList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>0</X>
+			<X>-1000</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
@@ -7833,7 +7938,7 @@
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>0</X>
+			<X>-1000</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
@@ -7866,6 +7971,7 @@
 		<Style_Transparent>true</Style_Transparent>
 		<Pieces>ACP_ProgressionList</Pieces>
 		<Pieces>ACP_ProgressionInfo</Pieces>
+		<Pieces>ACP_Notes</Pieces>
 	</VerticalLayoutBox>
 	<Page item="IW_AltCharProgPage">
 		<ScreenID>AltCharProgPage</ScreenID>
@@ -7874,7 +7980,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<DrawTemplate>WDT_Def</DrawTemplate>
-		<TabText>Shrouds</TabText>
+		<TabText>Notes</TabText>
 		<TabTextColor>
 			<R>255</R>
 			<G>255</G>
@@ -8200,6 +8306,8 @@
 		<Pages>Page:IW_InvPage</Pages>
 		<Pages>Page:IW_StatPage</Pages>
 		<Pages>Page:IW_AltCurrPage</Pages>
+		<Pages>Page:IW_EIPage</Pages>
+		<Pages>Page:IW_AltCharProgPage</Pages>
 		<LeftAnchorOffset>1</LeftAnchorOffset>
 		<RightAnchorOffset>0</RightAnchorOffset>
 		<TopAnchorOffset>0</TopAnchorOffset>
