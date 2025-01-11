@@ -35,7 +35,7 @@ jobs:
           echo "Creating ZIP file..."
           make prep
           mkdir -p /tmp/gearcore
-          rsync -a --exclude={'*.png','*.ico','*.ini','*.manifest','.gitignore','*.bat','*.syso','*.md','Makefile'} . /tmp/shinspark
+          rsync -a --exclude={'*.png','*.ico','*.ini','*.manifest','.gitignore','*.bat','*.syso','*.md','Makefile'} . /tmp/gearcore
           cd /tmp
           zip -r gearcore.zip gearcore
           mv gearcore.zip $GITHUB_WORKSPACE/gearcore.zip
