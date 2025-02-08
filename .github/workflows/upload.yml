@@ -42,7 +42,7 @@ jobs:
 
       # Upload the ZIP file as an artifact
       - name: Upload ZIP file
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: gearcore
           path: gearcore.zip
