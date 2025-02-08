@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="us-ascii"?> 
-<XML ID="EQInterfaceDefinitionLanguage"> 
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
 	<Button item="SDBW_Buff0_Button">
 		<ScreenID>Buff0</ScreenID>
@@ -316,13 +316,14 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>true</Style_Transparent>
 		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
+		<DrawTemplate>WDT_SmallTitleGear</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>true</Style_Sizable>
 		<Escapable>false</Escapable>
 		<Pieces>TileLayoutBox:SDBW_Buttons</Pieces>
+		<Font>0</Font>
 	</Screen>
 </XML>
