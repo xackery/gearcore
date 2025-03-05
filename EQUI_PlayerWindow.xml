@@ -1008,6 +1008,155 @@
     <Font>2</Font>
     <TooltipReference>(Puller)</TooltipReference>
   </Button>
+
+  <Gauge item="PW_ExperienceGauge">
+    <ScreenID>ExpGauge</ScreenID>
+    <Font>2</Font>
+		<EQType>4</EQType>
+    <RelativePosition>true</RelativePosition>
+    <FillTint>
+      <R>1</R>
+      <G>130</G>
+      <B>31</B>
+    </FillTint>
+    <EQType>3</EQType>
+    <GaugeOffsetY>46</GaugeOffsetY>
+    <GaugeDrawTemplate>
+      <Background>A_GaugeBackground</Background>
+      <Fill>A_GaugeFill</Fill>
+      <Lines>A_GaugeLines</Lines>
+      <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
+      <EndCapRight>A_GaugeEndCapRight</EndCapRight>
+    </GaugeDrawTemplate>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorOffset>2</TopAnchorOffset>
+    <BottomAnchorOffset>59</BottomAnchorOffset>
+    <LeftAnchorOffset>2</LeftAnchorOffset>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <RightAnchorOffset>4</RightAnchorOffset>
+    <Location>
+      <X>2</X>
+      <Y>8</Y>
+    </Location>
+    <Size>
+      <CX>102</CX>
+      <CY>19</CY>
+    </Size>
+    <GaugeOffsetX>-3</GaugeOffsetX>
+    <TextOffsetX>8</TextOffsetX>
+    <TextOffsetY>-100</TextOffsetY>
+    <Font>3</Font>
+    <Text></Text>
+    <TextColor>
+      <G>255</G>
+      <B>255</B>
+      <R>255</R>
+    </TextColor>
+  </Gauge>
+  <Label item="Player_ExpLabelPerc">
+    <ScreenID>MY_EXPPercent</ScreenID>
+    <EQType>26</EQType>
+    <Font>1</Font>
+    <RelativePosition>true</RelativePosition>
+    <Text>100</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorOffset>47</TopAnchorOffset>
+    <BottomAnchorOffset>29</BottomAnchorOffset>
+    <LeftAnchorOffset>2</LeftAnchorOffset>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Style_Tooltip>false</Style_Tooltip>
+    <RightAnchorOffset>0</RightAnchorOffset>
+    <Location>
+      <X>50</X>
+      <Y>145</Y>
+    </Location>
+    <Size>
+      <CX>20</CX>
+      <CY>13</CY>
+    </Size>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Gauge item="PW_AAExperienceGauge">
+    <ScreenID>AltAdvGauge</ScreenID>
+    <Font>2</Font>
+		<EQType>5</EQType>
+    <RelativePosition>true</RelativePosition>
+    <FillTint>
+      <R>176</R>
+      <G>5</G>
+      <B>159</B>
+    </FillTint>
+    <EQType>3</EQType>
+    <GaugeOffsetY>56</GaugeOffsetY>
+    <GaugeDrawTemplate>
+      <Background>A_GaugeBackground</Background>
+      <Fill>A_GaugeFill</Fill>
+      <Lines>A_GaugeLines</Lines>
+      <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
+      <EndCapRight>A_GaugeEndCapRight</EndCapRight>
+    </GaugeDrawTemplate>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorOffset>2</TopAnchorOffset>
+    <BottomAnchorOffset>69</BottomAnchorOffset>
+    <LeftAnchorOffset>2</LeftAnchorOffset>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <RightAnchorOffset>4</RightAnchorOffset>
+    <Location>
+      <X>2</X>
+      <Y>8</Y>
+    </Location>
+    <Size>
+      <CX>102</CX>
+      <CY>19</CY>
+    </Size>
+    <GaugeOffsetX>-3</GaugeOffsetX>
+    <TextOffsetX>8</TextOffsetX>
+    <TextOffsetY>-100</TextOffsetY>
+    <Font>3</Font>
+    <Text></Text>
+    <TextColor>
+      <G>255</G>
+      <B>255</B>
+      <R>255</R>
+    </TextColor>
+  </Gauge>
+  <Label item="Player_AAExpLabelPerc">
+    <ScreenID>MY_AAEXPPercent</ScreenID>
+    <EQType>27</EQType>
+    <Font>1</Font>
+    <RelativePosition>true</RelativePosition>
+    <Text>100</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AutoStretch>true</AutoStretch>
+    <TopAnchorOffset>57</TopAnchorOffset>
+    <BottomAnchorOffset>29</BottomAnchorOffset>
+    <LeftAnchorOffset>2</LeftAnchorOffset>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Style_Tooltip>false</Style_Tooltip>
+    <RightAnchorOffset>0</RightAnchorOffset>
+    <Location>
+      <X>50</X>
+      <Y>185</Y>
+    </Location>
+    <Size>
+      <CX>20</CX>
+      <CY>13</CY>
+    </Size>
+    <AlignRight>true</AlignRight>
+  </Label>
   <Screen item="PlayerWindow">
     <RelativePosition>false</RelativePosition>
     <Location>
@@ -1058,5 +1207,9 @@
     <Pieces>PW_Min-Max_Mana</Pieces>
     <Pieces>PW_Min-Max_End</Pieces>
     <Pieces>Player_HP_Gauge_Target_Anywhere</Pieces>
+    <Pieces>PW_ExperienceGauge</Pieces>
+    <Pieces>Player_ExpLabelPerc</Pieces>
+    <Pieces>PW_AAExperienceGauge</Pieces>
+    <Pieces>Player_AAExpLabelPerc</Pieces>
   </Screen>
 </XML>
