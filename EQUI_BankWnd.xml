@@ -420,8 +420,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>2</X>
-      <Y>440</Y>
+      <X>-88</X>
+      <Y>-30</Y>
     </Location>
     <Size>
       <CX>80</CX>
@@ -604,8 +604,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>-88</X>
-      <Y>-30</Y>
+      <X>2</X>
+      <Y>440</Y>
     </Location>
     <Size>
       <CX>80</CX>

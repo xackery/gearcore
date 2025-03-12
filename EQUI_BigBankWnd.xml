@@ -581,8 +581,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>2</X>
-      <Y>612</Y>
+      <X>-91</X>
+      <Y>-25</Y>
     </Location>
     <Size>
       <CX>80</CX>
@@ -766,8 +766,8 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>-91</X>
-      <Y>-25</Y>
+      <X>2</X>
+      <Y>612</Y>
     </Location>
     <Size>
       <CX>80</CX>
