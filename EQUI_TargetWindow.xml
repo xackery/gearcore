@@ -154,8 +154,8 @@
 			<B>240</B>
 		</TextColor>
 		<RelativePosition>true</RelativePosition>
-		<GaugeOffsetY>16</GaugeOffsetY>
-		<TextOffsetX>8</TextOffsetX>
+		<GaugeOffsetY>10</GaugeOffsetY>
+		<TextOffsetX>5</TextOffsetX>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
@@ -177,9 +177,9 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>2</TopAnchorOffset>
-		<BottomAnchorOffset>29</BottomAnchorOffset>
-		<LeftAnchorOffset>2</LeftAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
+		<BottomAnchorOffset>31</BottomAnchorOffset>
+		<LeftAnchorOffset>5</LeftAnchorOffset>
+		<RightAnchorOffset>5</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Gauge>
 	<Label item="Target_HPLabel">
@@ -196,7 +196,7 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>17</TopAnchorOffset>
+		<TopAnchorOffset>16</TopAnchorOffset>
 		<BottomAnchorOffset>29</BottomAnchorOffset>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -210,7 +210,8 @@
 			<B>240</B>
 		</TextColor>
 		<RelativePosition>true</RelativePosition>
-		<GaugeOffsetY>17</GaugeOffsetY>
+		<GaugeOffsetY>11</GaugeOffsetY>
+		<TextOffsetX>5</TextOffsetX>
 		<TextOffsetY>1</TextOffsetY>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
@@ -233,7 +234,7 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>42</TopAnchorOffset>
-		<BottomAnchorOffset>75</BottomAnchorOffset>
+		<BottomAnchorOffset>73</BottomAnchorOffset>
 		<LeftAnchorOffset>5</LeftAnchorOffset>
 		<RightAnchorOffset>5</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
